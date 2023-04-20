@@ -1,9 +1,15 @@
-def is palindrome
-    #Accept input text
-    string = input("Enter a string to test if it is a palindrome: ")
+def is_palindrome(input_str):
     #Reverse the string
-    reverse_string = string[::-1]
-    if string == reverse_string
-        print "Is a Palindrome!"
-    else:   
-        print "Is not a Palindrome!"
+    #input_str = input("Please enter a string:")
+    #print(input_str)
+    #print(input_str[::-1])
+    reverse_str = input_str[::-1]
+    if input_str == reverse_str:
+        print ("[" + input_str + "] is a Palindrome!")
+    else: 
+        print ("[" + input_str + "] is not a Palindrome!")
+    return
+
+is_palindrome("The wicked witch of the West")
+is_palindrome("Ananas sananA")
+is_palindrome("Ananas sanana")
