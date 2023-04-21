@@ -4,7 +4,7 @@
 
 def sort_string(string):
     """This function is intended to split a space delimited string, organize the words 
-    alphabetically and return the sorted list of words in the original string."""
+    alphabetically and return the case insensitive sorted list of words in a joined string."""
     string_list = []
     string_list = string.split()
     string_list.sort(key = lambda x: x.lower())
