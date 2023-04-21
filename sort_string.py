@@ -10,7 +10,7 @@ def sort_string(string):
     string_list.sort(key = lambda x: x.lower())
     #new = re.split(r'\s', string) #This uses regular expressions
     # but I'm not how to IgnoreCase to sort without changing
-    print(string_list)
+    print(" ".join(string_list)) #This rejoins the strings
 
 #The solution provided uses key=str.casefold but I am not sure why that doesn't lowercase the split string
 sort_string('The rain in Spain falls mainly on the plain.')
