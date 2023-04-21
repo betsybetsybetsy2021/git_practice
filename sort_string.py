@@ -12,5 +12,5 @@ def sort_string(string):
     # but I'm not how to IgnoreCase to sort without changing
     print(string_list)
 
-#The solution provided uses key=str.casefold
+#The solution provided uses key=str.casefold but I am not sure why that doesn't lowercase the split string
 sort_string('The rain in Spain falls mainly on the plain.')
