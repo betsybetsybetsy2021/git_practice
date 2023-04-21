@@ -6,7 +6,8 @@ def sort_string(string):
     string = 'The rain in Spain falls mainly on the plain.'
     print(string)
     string_list = string.split()
-    print (string_list)
-    print(string_list.sort())
+    print (type(string_list))
+    string_list.sort()
+    print(string_list)
 
 sort_string('The rain in Spain falls mainly on the plain.')
